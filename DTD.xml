@@ -1,0 +1,48 @@
+<?xlm version="1.0" encoding+"iso-8859-1"?>
+<!DOCTYPE employ [
+    <!ELEMENT employ (company)*>
+    <!ELEMENT company (cn,cne,cs,cjd,cp)>
+    <!ELEMENT cn (#PCDATA)>
+    <!ELEMENT cne (#PCDATA)>
+    <!ELEMENT cs (#PCDATA)>
+    <!ELEMENT cjd (#PCDATA)>
+    <!ELEMENT cp (#PCDATA)>
+    <!ATTLIST company id CDATA #REQUIRED>
+]>
+<employ>
+ <company id="1"> 
+ <cn> 10234 </cn>
+ <cne> Salman </cne>
+ <cs> 5000 </cs>
+ <cjd> 2-2-2015 </cjd>
+ <cp> Manager </cp>
+ </company>
+  <company id="2"> 
+ <cn> 10235 </cn>
+ <cne> Ibrahim </cne>
+ <cs> 2000000 </cs>
+ <cjd> 3-5-1990 </cjd>
+ <cp> CEO</cp>
+ </company>
+  <company id="3"> 
+ <cn> 10236 </cn>
+ <cne> Asim</cne>
+ <cs> 5000 </cs>
+ <cjd> 4-4-2017 </cjd>
+ <cp> Manager </cp>
+ </company>
+  <company id="4"> 
+ <cn> 10237 </cn>
+ <cne> Ghazanfar </cne>
+ <cs> 5000 </cs>
+ <cjd> 8-10-2015 </cjd>
+ <cp> Manager </cp>
+ </company>
+  <company id="5"> 
+ <cn> 10238 </cn>
+ <cne> Saima </cne>
+ <cs> 100000 </cs>
+ <cjd> 4-5-2000 </cjd>
+ <cp> MD </cp>
+ </company>
+</employ>
